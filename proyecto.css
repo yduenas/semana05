@@ -223,11 +223,15 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+
+	width: 50%;
 	height: 500px;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 1em;
 	padding-bottom: 10em;
+	border: 1px solid white;
+	margin-left: 2s0em;
 }
 .content52 h6 {
 	font-size: 30px;

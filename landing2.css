@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+.section1 {
+	background: #586d80;
+	background-image: url("presion_arterial.jpg");
+	background-size: 100%;
+	height: 100vh;
+}
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+}
+.header {
+	background: #ffffff;
+	display: flex;
+
+	min-height: 100px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 150px;
+	height: 50px;
+	background-color: blue;
+	margin-left: 1em;
+}
+.navigation {
+	width: 40%;
+}
+
+.navigationList {
+	display: flex;
+	justify-content: space-around;
+}
+
+.section11 {
+	color: white;
+	display: flex;
+	width: 100%;
+	height: 80%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section11 button {
+	background: orange;
+	border-radius: 10%;
+	color: white;
+	border: none;
+	width: 150px;
+	height: 30px;
+}
+.section11 h1 {
+	font-size: 40px;
+	margin: 10px;
+}
+.section11 h2 {
+	font-size: 15px;
+	margin: 15px;
+}
